@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail_Note">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:gravity=""
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Textview_TitleDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:hint="Title"
+            android:padding="10dp"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/Textbox_DescripDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:hint="Content"
+            android:inputType="date|textLongMessage|textAutoCorrect|textMultiLine|number|textImeMultiLine"
+            android:padding="10dp"
+            android:textSize="30dp"
+            android:textStyle="bold"></TextView>
+
+
+    </LinearLayout>
+</FrameLayout>
